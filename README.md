@@ -1,4 +1,4 @@
-### Autenty: Super lightweight authentication system
+# Autenty: Super lightweight authentication system
 
 Sistema de autenticación extremadamente rápido y sencillo que no requiera instalación de ningún SDK y que funcione a través de solicitudes HTTPS.
 
