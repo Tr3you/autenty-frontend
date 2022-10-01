@@ -1,0 +1,24 @@
+<div class="container-home">
+    <header>
+        <h1>Mis grupos de usuarios</h1>
+        <button (click)="navigate('/new-application')">Añadir nueva aplicacion</button>
+    </header>
+    <div class="grid-apps">
+        <div (click)="navigate('/dashboard/users')" class="card">
+            <p>Applicacion 1</p>
+            <span class="material-symbols-outlined">delete</span>
+        </div>
+        <div (click)="navigate('/dashboard/users')" class="card">
+            <p>Applicacion 2</p>
+            <span class="material-symbols-outlined">delete</span>
+        </div>
+        <div (click)="navigate('/dashboard/users')" class="card">
+            <p>Applicacion 3</p>
+            <span class="material-symbols-outlined">delete</span>
+        </div>
+        <div (click)="navigate('/dashboard/users')" class="card">
+            <p>Applicacion 4</p>
+            <span class="material-symbols-outlined">delete</span>
+        </div>
+    </div>
+</div>

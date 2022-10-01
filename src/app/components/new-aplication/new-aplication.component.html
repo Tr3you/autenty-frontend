@@ -1,0 +1,22 @@
+<div class="new-container">
+    <span style="cursor: pointer" (click)="navigate('/applications')" class="material-symbols-outlined">
+        arrow_back
+    </span>
+    <h1>Nueva aplicacion</h1>
+    <div class="form">
+        <div class="form-field">
+            <label for="">Nombre de la aplicacion</label>
+            <input type="email" placeholder="ejemplo@mail.com">
+        </div>
+        <div class="form-field">
+            <label for="">Duracion del token</label>
+            <div class="token-input">
+                <input type="number" value="7">
+                <p>dias y</p>
+                <input type="number" value="0">
+                <p>horas.</p>
+            </div>
+        </div>
+        <button (click)="navigate('/applications')">Crear aplicacion</button>
+    </div>
+</div>

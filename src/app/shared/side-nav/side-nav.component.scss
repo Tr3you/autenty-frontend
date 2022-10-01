@@ -1,0 +1,11 @@
+.side-nav {
+    width: 20vw;
+    .menu{
+        margin-left: 2rem;
+        list-style: none;
+        li{
+            margin: 1.5rem 0;
+            cursor: pointer;
+        }
+    }
+}

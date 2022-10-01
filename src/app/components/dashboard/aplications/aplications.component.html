@@ -1,0 +1,37 @@
+<div class="container-application">
+    <header>
+        <h1>Aplicacion 1</h1>
+        <button>Eliminar aplicacion</button>
+    </header>
+    <div style="display: flex; justify-content: space-between; margin-right: 2rem;">
+        <side-nav></side-nav>
+        <main>
+            <div class="main-card">
+                <div class="form">
+                    <div class="form-field">
+                        <label for="">Nombre de aplicacion</label>
+                        <input type="email" placeholder="ejemplo@mail.com" value="Aplicacion 1">
+                    </div>
+                    <div class="form-field">
+                        <label for="">ID cliente</label>
+                        <input type="text" value="49717388681696346209"  [disabled]="true">
+                    </div>
+                    <div class="form-field">
+                        <label for="">Secreto de cliente</label>
+                        <input type="text" value="f3xZqQxPnwioV#dq2LJ&xZx5fP!p%2" [disabled]="true">
+                    </div>
+                    <div class="form-field">
+                        <label for="">Duracion del token</label>
+                        <div class="token-input">
+                            <input type="number" value="7">
+                            <p>dias y</p>
+                            <input type="number" value="0">
+                            <p>horas.</p>
+                        </div>
+                    </div>
+                    <button>Guardar cambios</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>

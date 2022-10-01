@@ -1,0 +1,90 @@
+.new-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    span{
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+        font-size: 3rem;
+    }
+
+    h1{
+        margin: 3rem 0;
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+        .token-input{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            input{
+                width: 5rem;
+                margin-right: 1rem;
+                text-align: center;
+            }
+
+            p{
+                margin-right: 1rem;
+                font-size: 1rem;
+            }
+        }
+
+        &-field{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            margin-bottom: 1.5rem;
+
+            label{
+                margin-bottom: 0.5rem;
+                color: #000;
+                font-weight: 500;
+            }
+
+            input{
+                width: 20rem;
+                padding: 1rem 0.7rem;
+                border-radius: 0.4rem;
+                outline: none;
+                border: 1px solid #000;
+                color: #000;
+                font-size: 1rem;
+            }
+
+            input::placeholder {
+                color: #3d3d3d;
+            }
+
+            p{
+                color: #000;
+                margin-top: 0.5rem;
+                font-weight: 500;
+                font-size: 0.8rem;
+            }
+        }
+
+        button{
+            margin-top: 2rem;
+            width: 10rem;
+            height: 3rem;
+            color: #fff;
+            background-color: #000;
+            border-radius: 0.4rem;
+            cursor: pointer;
+        }
+    }
+}

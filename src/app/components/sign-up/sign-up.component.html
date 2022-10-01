@@ -1,0 +1,25 @@
+<div class="container-signup">
+    <div class="left-side">
+        <img src="/assets/image2.jpg" alt="">
+        <div class="mask"></div>
+    </div>
+    <div class="right-side">
+        <h1>Crear cuenta</h1>
+        <div class="form">
+            <div class="form-field">
+                <label for="">Correo electrónico</label>
+                <input type="email" placeholder="ejemplo@mail.com">
+            </div>
+            <div class="form-field">
+                <label for="">Contraseña</label>
+                <input type="password" placeholder="••••••••••••">
+            </div>
+            <div class="form-field">
+                <label for="">Repetir Contraseña</label>
+                <input type="password" placeholder="••••••••••••">
+            </div>
+            <button (click)="navigate('/applications')">Crear cuenta</button>
+        </div>
+        <p (click)="navigate('/')">¿Ya tienes una cuenta?</p>
+    </div>
+</div>

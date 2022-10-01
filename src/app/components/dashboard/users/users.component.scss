@@ -1,0 +1,55 @@
+.container-users{
+    header{
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 2rem;
+        button{
+            width: 12rem;
+            height: 3rem;
+            color: #000;
+            background-color: #fff;
+            border-radius: 0.4rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    }
+
+    main{
+        width: 75vw;
+        height: 4rem;
+        button{
+            width: 12rem;
+            height: 3rem;
+            color: #fff;
+            background-color: #000;
+            border-radius: 0.4rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        
+        .main-card{
+            width: 100%;
+            height: 10rem;
+            margin-top: 2rem;
+            padding: 2rem;
+            border-radius: 1.5rem;
+            -webkit-box-shadow: 10px 10px 35px -11px rgba(204,204,204,1);
+            -moz-box-shadow: 10px 10px 35px -11px rgba(204,204,204,1);
+            box-shadow: 10px 10px 35px -11px rgba(204,204,204,1);
+
+            .users-row{
+                margin-bottom: 1rem;
+                text-align: center;
+                display: grid;
+                grid-template-columns: 25% 25% 25% 25%;
+                justify-items: center;
+
+                p{
+                    justify-self: center;
+                }
+            }
+        }
+    }
+}
